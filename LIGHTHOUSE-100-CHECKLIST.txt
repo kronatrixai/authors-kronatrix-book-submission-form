@@ -1,0 +1,31 @@
+LIGHTHOUSE 100 CHECKLIST
+==========================
+
+The uploaded Lighthouse reports were run over HTTP. The code package fixes the
+reported image aspect-ratio problem and the initial-load smooth-scroll problem.
+
+One external GitHub Pages setting is still required:
+
+1. Open the repository:
+   https://github.com/kronatrixai/authors-kronatrix-book-submission-form
+
+2. Open:
+   Settings > Pages
+
+3. Confirm the custom domain is:
+   submit-your-book.kronatrix.co.uk
+
+4. Wait until the DNS check and TLS certificate are complete.
+
+5. Turn on:
+   Enforce HTTPS
+
+6. Test this exact secure URL:
+   https://submit-your-book.kronatrix.co.uk/
+
+Do not run Lighthouse against the http:// version. The HTTP version must redirect
+to HTTPS before the Best Practices score can reach 100.
+
+Lighthouse scores can vary slightly between runs because of device load and
+network conditions, but this package addresses every failure shown in the
+uploaded mobile and desktop reports.

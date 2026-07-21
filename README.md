@@ -69,3 +69,23 @@ Purchase and social links are optional. Authors can add as many as needed using 
 ## Live ebook preview example
 
 `https://the-identity-paradox.corneliusaurelius.com/`
+
+
+## Lighthouse optimisation update
+
+This version addresses the failures shown in the uploaded mobile and desktop
+Lighthouse reports:
+
+- Removed the distorted decorative image element that failed the image
+  aspect-ratio audit.
+- Added right-sized logo images.
+- Prevented smooth scrolling during the initial page load.
+- Removed expensive backdrop filters and mask rendering.
+- Prevented the decorative guardian image from downloading on mobile.
+- Reduced the decorative guardian image dimensions and file size.
+- Deferred rendering of below-the-fold content.
+
+To obtain 100 for Best Practices, GitHub Pages must have **Enforce HTTPS**
+enabled and Lighthouse must be run against:
+
+`https://submit-your-book.kronatrix.co.uk/`
