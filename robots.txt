@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://submit-your-book.kronatrix.co.uk/sitemap.xml
