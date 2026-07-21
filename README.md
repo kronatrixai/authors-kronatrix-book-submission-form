@@ -89,3 +89,8 @@ To obtain 100 for Best Practices, GitHub Pages must have **Enforce HTTPS**
 enabled and Lighthouse must be run against:
 
 `https://submit-your-book.kronatrix.co.uk/`
+
+
+## Visual update
+
+The decorative Authors.Kronatrix guardian background image has been removed from the website.

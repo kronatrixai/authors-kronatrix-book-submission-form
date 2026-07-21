@@ -244,28 +244,7 @@
       margin: 0 auto;
       padding: clamp(34px, 5vw, 70px) 0 80px;
     }
-
-    .guardian {
-      display: none;
-    }
-
-    @media (min-width: 941px) {
-      .guardian {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        top: 145px;
-        left: max(-90px, calc(50vw - 760px));
-        width: min(420px, 30vw);
-        aspect-ratio: 470 / 836;
-        opacity: .16;
-        pointer-events: none;
-        contain: paint;
-        background: url("authors-kronatrix-guardian-470.webp") left bottom / contain no-repeat;
-      }
-    }
-
-    .hero {
+.hero {
       display: grid;
       grid-template-columns: minmax(0, .92fr) minmax(480px, 1.08fr);
       align-items: start;
@@ -1173,7 +1152,7 @@
     }
 
     @media print {
-      .site-header, .guardian, .form-actions, .content-section, footer { display: none !important; }
+      .site-header, .form-actions, .content-section, footer { display: none !important; }
       body { background: #fff; color: #111; }
       .page-shell { width: 100%; padding: 0; }
       .hero { display: block; }
@@ -1203,8 +1182,7 @@
     </div>
   </header>
 
-  <div class="guardian" aria-hidden="true"></div>
-
+  
   <main class="page-shell">
     <section class="hero" aria-labelledby="page-title">
       <div class="hero-copy">
